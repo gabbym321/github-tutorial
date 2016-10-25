@@ -19,14 +19,16 @@ GitHub is a web-based git respotory hosting service, you may often hear this bei
 
 3) Now we have to link our local (_c9_) to our remote (_github_) to do this you need to go to c9 and click the settings icon in the top right corner. in the settings click connected services and look for github. Click connect. 
 
-4) Now that you connected c9 to github, we need to make a workspace in our c9 so we can start coding. To do this click the + create new workspace.... 
+4) Now that you connected c9 to github, we need to make a workspace in our c9 so we can start coding. To do this click the + create new workspace. Name your workspace and put a discription. Dont set a team and make the workspace blank. Now click create workspace.  
 
 
-4) To get into any directory or repository we have `cd` into it we use a tilde (~) to tell the computer anywhere you are, go into the directory that I am telling you to go in. For example, if I choose to make my first repo in the directory workspace, I would type in this: `cd ~/workspace`. 
+4) Now we can start coding. First thing we need to do is get into our master directory. To get into any directory or repository we have `cd` into it we use a tilde (~) to tell the computer anywhere you are, go into the directory that I am telling you to go in. For example, if I choose to make my first repo in the directory workspace, I would type in this: `cd ~/workspace`. 
 
 4) Now that we are in our workspace, we can make our first repo. to make a repository you first need to make a directory. type the code `mkdir` then then name you want your directory (or soon to be repository) to be called. in this example I'll call this first-repo. So I would type `mkdir first-repo` 
 
-5) Now that we made a new directory, we need to initialize git so that our directory turns into a repository and we can do things like send our work up to the cloud (Github). to do this, we type in the command `git init` this will "hire" git so you can start using it. _You only have to do this once._   
+5) Now that we made a new directory, we need to initialize git so that our directory turns into a repository and we can do things like send our work up to the cloud (Github). to do this, we type in the command `git init` this will "hire" git so you can start using it. _You only have to do this once._ 
+
+
 
 
 
