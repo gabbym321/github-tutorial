@@ -4,25 +4,25 @@ by Gabriel Makower
 
 ---
 ## Git vs. GitHub
- #### Git:   
+#### Git:   
  
 Git is a software that runs in the command line. Git takes a snapshot of code that you write so you can look back at it. Git also allows you to send things up to your remote repository (the cloud) and to pull it back down.   
 
  #### Github:   
  
-GitHub is a web-based git respotory hosting service, you may often hear this being referd to as the cloud. Github is different to git beause you will always need git for github but you may not always need github for git. Github is an amayzing tool because it provides a easy way to colaborate your code with someone else. Because it is on the internet anyone can see it and pull it down to their local repository so that they can make changes to it that you have the ability to accept or deny.  
+GitHub is a web-based git repository hosting service, you may often hear this being referd to as the cloud. Github is different to git beause you will always need git for github but you may not always need github for git. Github is an amayzing tool because it provides a easy way to colaborate your code with someone else. Because it is on the internet anyone can see it and pull it down to their local repository so that they can make changes to it that you have the ability to accept or deny.  
 
 
 ---
 ## Initial Setup
 ###### Now that you know the basic idea of git and github, its time to put them into use.
-1) First we need to make a Cloud 9 account. Go to c9.io and click on sign up. Fill out all the information and make sure you use an email that you have access to. 
+1) First we need to make a Cloud 9 account. Go to [Cloud9](c9.io) and click on sign up. Fill out all the information and make sure you use an email that you have access to. 
 
-2) Now we make a github account. Go to github.com and fill out all the information. **_When you are done make sure you go back to your email and verfy with github!_**
+2) Now we make a github account. Go to github.com and fill out all the information. **_When you are done make sure you go back to your email and verify with github!_**
 
 3) Now we have to link our local (_c9_) to our remote (_github_) to do this you need to go to c9 and click the settings icon in the top right corner. in the settings click connected services and look for github. Click connect. 
 
-4) Now that you connected c9 to github, we need to make a workspace in our c9 so we can start coding. To do this click the + create new workspace. Name your workspace and put a discription. Dont set a team and make the workspace blank. Now click create workspace.  
+4) Now that you connected c9 to github, we need to make a workspace in our c9 so we can start coding. To do this click the + create new workspace. Name your workspace and put a description. Don't set a team and make the workspace blank. Now click create workspace.  
 
 
 
@@ -62,11 +62,11 @@ GitHub is a web-based git respotory hosting service, you may often hear this bei
 
 4) Now you should check if its tracked in the staging area. To do this type `git status`. You should see writing in green. 
 
-5) now you need to commit your work. to do this type `git commit -m "_short message_"
+5) Now you need to commit your work. to do this type `git commit -m "_short message_".
 
 6) Now its time to push it up to the cloud. because when you were setting everything up you put `-u orgin master` all you need to type now is `git push` this send everything up to the cloud. 
 
-7) now you can continue typing in your file and when you finish a chunck repeate steps 3-6. 
+7) Now you can continue typing in your file and when you finish a chunk, repeat steps 3-6. 
 
 
 
