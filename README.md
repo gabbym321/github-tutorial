@@ -72,7 +72,17 @@ GitHub is a web-based git respotory hosting service, you may often hear this bei
 
 6) Now its time to push it up to the cloud. because when you were setting everything up you put `-u orgin master` all you need to type now is `git push` this send everything up to the cloud. 
 * _A common mistake people make is trying to push their repository. Make sure you are only push a file. Redo it if you accedently put the repo._
-7) now you can continue typing in your file and when you finish a chunck repeate steps 3-6. 
+7) now you can continue typing in your file and when you finish a chunck repeate steps 3-6.
+
+
+
+---
+## Cloning  
+
+#### cloning: 
+* Cloning a repo is just copying it ong your cloud. If you want to clone then fork then you go to the person you want to clone's repository in github. Then press clone or download on the top left. You copy the link that you see. Lastly you go to your local repo, type `git clone` then paste the URL that you copied. 
+ 
+
 
 
 
